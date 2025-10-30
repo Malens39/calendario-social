@@ -1,3 +1,4 @@
+'use client';
 import * as React from 'react';
 const Ctx = React.createContext<any>(null);
 export function Dialog({ children }: any){
