@@ -1,3 +1,4 @@
+'use client';
 import * as React from 'react';
 const Ctx = React.createContext<any>(null);
 export function Tabs({ value, onValueChange, children }: any){ return <Ctx.Provider value={{value, onValueChange}}>{children}</Ctx.Provider>; }
