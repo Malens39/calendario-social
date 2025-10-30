@@ -531,5 +531,6 @@ function PlatformPreview({ platform, caption, imageUrl }: { platform: Platform; 
       </div>
     </div>
   );
+  fix: add 'use client' to page.tsx
 }
 
